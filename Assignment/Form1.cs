@@ -7,11 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Assignment
 {
     public partial class Form1 : Form
     {
+        SqlConnection conn = new SqlConnection("Data Source=LIM;Initial Catalog=" +
+            "IOOPAssignment;Integrated Security=True");
         public Form1()
         {
             InitializeComponent();
@@ -22,11 +25,28 @@ namespace Assignment
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void LoginBtn_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form2 f2 = new Form2();
-            f2.ShowDialog();
+            String username, user_password;
+
+            username = usernametextbox.Text;
+            user_password = passwordtextbox.Text;
+
+            String query = "SELECT * FROM ACCOUNTS WHERE Username = '" + username + "' " +
+                "AND PASSWORD = '" + user_password + "'";
+            SqlCommand cmd = new SqlCommand(query, conn);
+            SqlDataAdapter sda = new SqlDataAdapter(query, conn);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            if(dt.Rows.Count > 0)
+            {
+                MessageBox.Show("Login successful");
+            }
+            else
+            {
+                MessageBox.Show("Incorrect, Please try again");
+            }
         }
     }
 }
