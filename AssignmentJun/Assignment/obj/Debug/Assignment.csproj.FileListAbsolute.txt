@@ -1,0 +1,11 @@
+C:\Users\Junn\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe.config
+C:\Users\Junn\source\repos\Assignment\Assignment\bin\Debug\Assignment.exe
+C:\Users\Junn\source\repos\Assignment\Assignment\bin\Debug\Assignment.pdb
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.AssemblyReference.cache
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.Form2.resources
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.Form1.resources
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.Properties.Resources.resources
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.GenerateResource.cache
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.exe
+C:\Users\Junn\source\repos\Assignment\Assignment\obj\Debug\Assignment.pdb
