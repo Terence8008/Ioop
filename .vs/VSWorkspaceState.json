@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assignment"
   ],
-  "SelectedNode": "\\Assignment.sln",
+  "SelectedNode": "\\Assignment\\Check_Status.cs",
   "PreviewInSolutionExplorer": false
 }
