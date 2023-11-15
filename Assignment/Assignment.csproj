@@ -46,41 +46,83 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assign_job.cs">
+    <Compile Include="AdminIncomeReportForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Assign_job.Designer.cs">
-      <DependentUpon>Assign_job.cs</DependentUpon>
+    <Compile Include="AdminIncomeReportForm.Designer.cs">
+      <DependentUpon>AdminIncomeReportForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Check_Status.cs">
+    <Compile Include="AdminMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Check_Status.Designer.cs">
-      <DependentUpon>Check_Status.cs</DependentUpon>
+    <Compile Include="AdminMainMenu.Designer.cs">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMonthlyIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMonthlyIncome.Designer.cs">
+      <DependentUpon>AdminMonthlyIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRegisterform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRegisterform.Designer.cs">
+      <DependentUpon>AdminRegisterform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminRequestReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminRequestReport.Designer.cs">
+      <DependentUpon>AdminRequestReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAssignJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAssignJob.Designer.cs">
+      <DependentUpon>ManagerAssignJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerMainMenu.Designer.cs">
+      <DependentUpon>ManagerMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="CustomerPending.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="CustomerPending.Designer.cs">
+      <DependentUpon>CustomerPending.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="WorkerMainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="WorkerMainMenu.Designer.cs">
+      <DependentUpon>WorkerMainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="IOOPAssignmentDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>IOOPAssignmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginPage.Designer.cs">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMainMenu.Designer.cs">
+      <DependentUpon>CustomerMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustNewRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustNewRequestForm.Designer.cs">
+      <DependentUpon>CustNewRequestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,20 +132,47 @@
     <Compile Include="Receive_Payment.Designer.cs">
       <DependentUpon>Receive_Payment.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Assign_job.resx">
-      <DependentUpon>Assign_job.cs</DependentUpon>
+    <Compile Include="WorkerStatusUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkerStatusUpdate.Designer.cs">
+      <DependentUpon>WorkerStatusUpdate.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminIncomeReportForm.resx">
+      <DependentUpon>AdminIncomeReportForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Check_Status.resx">
-      <DependentUpon>Check_Status.cs</DependentUpon>
+    <EmbeddedResource Include="AdminMainMenu.resx">
+      <DependentUpon>AdminMainMenu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AdminMonthlyIncome.resx">
+      <DependentUpon>AdminMonthlyIncome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="AdminRegisterform.resx">
+      <DependentUpon>AdminRegisterform.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="AdminRequestReport.resx">
+      <DependentUpon>AdminRequestReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAssignJob.resx">
+      <DependentUpon>ManagerAssignJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMainMenu.resx">
+      <DependentUpon>ManagerMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerPending.resx">
+      <DependentUpon>CustomerPending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerMainMenu.resx">
+      <DependentUpon>WorkerMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMainMenu.resx">
+      <DependentUpon>CustomerMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustNewRequestForm.resx">
+      <DependentUpon>CustNewRequestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -116,6 +185,9 @@
     </Compile>
     <EmbeddedResource Include="Receive_Payment.resx">
       <DependentUpon>Receive_Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkerStatusUpdate.resx">
+      <DependentUpon>WorkerStatusUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="IOOPAssignmentDataSet.xsc">
       <DependentUpon>IOOPAssignmentDataSet.xsd</DependentUpon>
